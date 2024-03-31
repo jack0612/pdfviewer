@@ -1,0 +1,22 @@
+
+
+
+<ngx-extended-pdf-viewer
+            *ngIf="showPdfViewer"
+            [src]="'./assets/pdfs/The Public Domain - Enclosing the Commons of the Mind.pdf'"
+            [zoom]="'auto'"
+            [height]="height"
+            [textLayer]="true"
+            [showHandToolButton]="true"
+            [showPresentationModeButton]="true"
+            [(page)]="page"
+            [(pageLabel)]="pageLabel"
+            [theme]="theme"
+            (updateFindMatchesCount)="onUpdateFindResult($event)"
+            [minifiedJSLibraries]="false"
+            (pageRendered)="onPageRendered($event)"
+            (pageRender)="onPageRender()"
+            [minifiedJSLibraries]="!isLocalhost"
+            [handTool]="true"
+          >
+          </ngx-extended-pdf-viewer>

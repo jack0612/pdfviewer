@@ -1,0 +1,15 @@
+select {
+  font-size: 12px;
+  height: 26px;
+  cursor: pointer;
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 0;
+  padding-bottom: 0;
+
+}
+
+#customScaleOption {
+  display: none;
+}

@@ -1,0 +1,17 @@
+<button
+  *ngIf="!onlySecondaryMenu"
+  type="button"
+  [id]="primaryToolbarId"
+  class="toolbarButton"
+  [class]="cssClass"
+  [title]="title"
+  [attr.data-l10n-id]="l10nId"
+  [class.toggled]="toggled"
+  [disabled]="disabled"
+  (click)="onClick($event)"
+  [attr.aria-label]="title"
+  role="button"
+  #buttonRef
+>
+  <span [attr.data-l10n-id]="l10nLabel">{{ title }}</span>
+</button>

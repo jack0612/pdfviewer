@@ -1,0 +1,21 @@
+:host:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+svg:focus {
+  outline: none;
+}
+
+button#sidebarToggle {
+  height: 24px;
+  width: 24px;
+  margin-right: 5px !important;
+}
+
+button {
+  padding: 0;
+}

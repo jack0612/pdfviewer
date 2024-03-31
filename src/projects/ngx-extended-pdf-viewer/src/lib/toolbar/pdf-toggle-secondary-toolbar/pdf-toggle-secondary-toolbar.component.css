@@ -1,0 +1,19 @@
+button > svg {
+  margin-top:-3px;
+}
+
+:host:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+svg:focus {
+  outline: none;
+}
+
+button {
+  padding: 0;
+}

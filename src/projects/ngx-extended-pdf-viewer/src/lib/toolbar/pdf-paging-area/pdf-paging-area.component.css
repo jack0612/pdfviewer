@@ -1,0 +1,17 @@
+.paging-right {
+  float: right;
+  display: block;
+}
+
+.paging-left {
+  float: left;
+  display: block;
+}
+
+.margin-left-correct {
+  margin-left: -3px;
+}
+
+.margin-right-correct {
+  margin-right: -3px;
+}

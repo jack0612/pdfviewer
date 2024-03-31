@@ -1,0 +1,25 @@
+.thumbnail-radiobutton {
+  top: -76px;
+  right: 10px;
+  position: relative;
+}
+
+.thumbnailSelectionRing {
+  display: contents;
+  background-color: blue;
+}
+
+.thumbnail-text {
+  position: relative;
+  top: 50%;
+  left: 14%;
+  transform: rotate(-45deg);
+  z-index: 1;
+  color: black;
+  font-size:120%;
+}
+
+.pdf-js-version-3-7 .thumbnail-text {
+  left: 10px;
+  top: 70px;
+}

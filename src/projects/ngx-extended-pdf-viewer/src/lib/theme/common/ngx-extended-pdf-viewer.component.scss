@@ -1,0 +1,79 @@
+ngx-extended-pdf-viewer {
+  .invisible {
+    display: none !important;
+  }
+}
+
+ngx-extended-pdf-viewer {
+  #outerContainer {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+html[dir='ltr'] ngx-extended-pdf-viewer .dialogButton,
+html[dir='ltr'] ngx-extended-pdf-viewer .toolbarButton {
+  margin: 3px 0 4px 0;
+}
+
+html[dir='ltr'] ngx-extended-pdf-viewer .toolbarButton:last-child,
+html[dir='rtl'] ngx-extended-pdf-viewer .toolbarButton:first-child {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+html[dir='ltr'] ngx-extended-pdf-viewer #secondaryToolbarToggle {
+  margin-right: 4px;
+  margin-left: 0;
+}
+html[dir='rtl'] ngx-extended-pdf-viewer #secondaryToolbarToggle {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+ngx-extended-pdf-viewer {
+  .toolbarButton,
+  // .secondaryToolbarButton,
+  .dialogButton {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .offscreen {
+    position: fixed !important;
+    left: -9999px !important;
+    display: block !important;
+    width: 3000px !important;
+  }
+
+  .offscreen #sidebarContainer {
+    top: 1000px !important;
+  }
+
+  .toolbarButton {
+    margin-left: -1px !important;
+    margin-right: -2px !important;
+  }
+
+  #numPages {
+    padding-right: 0;
+  }
+
+  .pdf-viewer-template,
+  .pdf-viewer-template * {
+    display: none;
+  }
+}
+
+ngx-extended-pdf-viewer {
+  button:focus,
+  a:focus,
+  input:focus,
+  select:focus {
+    outline: none;
+    border: 1px solid blue;
+  }
+
+  input[type="checkbox"]:focus {
+    outline: 1px solid blue;
+  }
+}

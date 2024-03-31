@@ -1,2 +1,1 @@
-# pdfviewer
-more
+# extended-pdf-viewer-showcase
